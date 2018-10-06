@@ -1,96 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23609" started-at="2018-09-25T21:48:54Z" finished-at="2018-09-25T21:49:17Z">
+  <suite name="Default suite" duration-ms="22287" started-at="2018-10-06T15:46:45Z" finished-at="2018-10-06T15:47:07Z">
     <groups>
       <group name="End2End">
-        <method signature="validateLogin.validEmailPwd(java.lang.String, java.lang.String)[pri:0, instance:WebTestFrame.validateLogin@10e31a9a]" name="validEmailPwd" class="WebTestFrame.validateLogin"/>
+        <method signature="ValidatePractice.validPracMouseHovrReload()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="validPracMouseHovrReload" class="WebTestFrame.ValidatePractice"/>
+        <method signature="ValidatePractice.validPracMouseHovrTop()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="validPracMouseHovrTop" class="WebTestFrame.ValidatePractice"/>
+        <method signature="ValidatePractice.validPracticeCheckbox()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="validPracticeCheckbox" class="WebTestFrame.ValidatePractice"/>
+        <method signature="ValidatePractice.validPracticeDropdown()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="validPracticeDropdown" class="WebTestFrame.ValidatePractice"/>
+        <method signature="ValidatePractice.validPracticeElementDisplayed()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="validPracticeElementDisplayed" class="WebTestFrame.ValidatePractice"/>
+        <method signature="ValidatePractice.validPracticeRadio()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="validPracticeRadio" class="WebTestFrame.ValidatePractice"/>
+        <method signature="ValidatePractice.validPracticeSwitchAlert()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="validPracticeSwitchAlert" class="WebTestFrame.ValidatePractice"/>
+        <method signature="ValidatePractice.validPracticeSwitchTab()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="validPracticeSwitchTab" class="WebTestFrame.ValidatePractice"/>
+        <method signature="ValidatePractice.validPracticeSwitchWindow()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="validPracticeSwitchWindow" class="WebTestFrame.ValidatePractice"/>
+        <method signature="ValidatePractice.validPracticeWebTable()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="validPracticeWebTable" class="WebTestFrame.ValidatePractice"/>
+        <method signature="ValidatePractice.validSuggessionTxtBox()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="validSuggessionTxtBox" class="WebTestFrame.ValidatePractice"/>
       </group> <!-- End2End -->
       <group name="Smoke">
-        <method signature="validateLogin.validEmailPwd(java.lang.String, java.lang.String)[pri:0, instance:WebTestFrame.validateLogin@10e31a9a]" name="validEmailPwd" class="WebTestFrame.validateLogin"/>
-        <method signature="validateLogin.validForgetPwd()[pri:0, instance:WebTestFrame.validateLogin@10e31a9a]" name="validForgetPwd" class="WebTestFrame.validateLogin"/>
+        <method signature="ValidatePractice.validPracticeSwitchWindow()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="validPracticeSwitchWindow" class="WebTestFrame.ValidatePractice"/>
       </group> <!-- Smoke -->
     </groups>
-    <test name="Default test" duration-ms="23609" started-at="2018-09-25T21:48:54Z" finished-at="2018-09-25T21:49:17Z">
-      <class name="WebTestFrame.validateLogin">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:WebTestFrame.validateLogin@10e31a9a]" name="initialize" is-config="true" duration-ms="10179" started-at="2018-09-25T17:48:54Z" finished-at="2018-09-25T17:49:04Z">
+    <test name="Default test" duration-ms="22287" started-at="2018-10-06T15:46:45Z" finished-at="2018-10-06T15:47:07Z">
+      <class name="WebTestFrame.ValidatePractice">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="initialize" is-config="true" duration-ms="13782" started-at="2018-10-06T11:46:45Z" finished-at="2018-10-06T11:46:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="validPopClose()[pri:0, instance:WebTestFrame.validateLogin@10e31a9a]" name="validPopClose" is-config="true" duration-ms="6605" started-at="2018-09-25T17:49:04Z" finished-at="2018-09-25T17:49:11Z">
+        <test-method status="PASS" signature="validPracticeLink()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="validPracticeLink" is-config="true" duration-ms="2229" started-at="2018-10-06T11:46:59Z" finished-at="2018-10-06T11:47:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validPopClose -->
-        <test-method status="PASS" signature="databaseConnLogin()[pri:0, instance:WebTestFrame.validateLogin@10e31a9a]" name="databaseConnLogin" duration-ms="1125" started-at="2018-09-25T17:49:11Z" finished-at="2018-09-25T17:49:12Z">
+        </test-method> <!-- validPracticeLink -->
+        <test-method status="PASS" signature="validPracticeDropdown()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="validPracticeDropdown" duration-ms="754" started-at="2018-10-06T11:47:01Z" finished-at="2018-10-06T11:47:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- databaseConnLogin -->
-        <test-method status="PASS" signature="validEmailPwd(java.lang.String, java.lang.String)[pri:0, instance:WebTestFrame.validateLogin@10e31a9a]" name="validEmailPwd" duration-ms="1617" started-at="2018-09-25T17:49:12Z" data-provider="getData" finished-at="2018-09-25T17:49:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[gourav@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- validPracticeDropdown -->
+        <test-method status="PASS" signature="validPracticeRadio()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="validPracticeRadio" duration-ms="337" started-at="2018-10-06T11:47:02Z" finished-at="2018-10-06T11:47:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validEmailPwd -->
-        <test-method status="PASS" signature="validEmailPwd(java.lang.String, java.lang.String)[pri:0, instance:WebTestFrame.validateLogin@10e31a9a]" name="validEmailPwd" duration-ms="2" started-at="2018-09-25T17:49:13Z" data-provider="getData" finished-at="2018-09-25T17:49:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[gourav]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[145789]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- validPracticeRadio -->
+        <test-method status="PASS" signature="validSuggessionTxtBox()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="validSuggessionTxtBox" duration-ms="296" started-at="2018-10-06T11:47:02Z" finished-at="2018-10-06T11:47:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validEmailPwd -->
-        <test-method status="PASS" signature="validEmailPwd(java.lang.String, java.lang.String)[pri:0, instance:WebTestFrame.validateLogin@10e31a9a]" name="validEmailPwd" duration-ms="2" started-at="2018-09-25T17:49:13Z" data-provider="getData" finished-at="2018-09-25T17:49:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[gourav@]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[145789]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- validSuggessionTxtBox -->
+        <test-method status="PASS" signature="validPracticeCheckbox()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="validPracticeCheckbox" duration-ms="346" started-at="2018-10-06T11:47:02Z" finished-at="2018-10-06T11:47:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validEmailPwd -->
-        <test-method status="PASS" signature="validErrorColor()[pri:0, instance:WebTestFrame.validateLogin@10e31a9a]" name="validErrorColor" duration-ms="72" started-at="2018-09-25T17:49:13Z" finished-at="2018-09-25T17:49:13Z">
+        </test-method> <!-- validPracticeCheckbox -->
+        <test-method status="PASS" signature="validPracticeSwitchWindow()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="validPracticeSwitchWindow" duration-ms="536" started-at="2018-10-06T11:47:03Z" finished-at="2018-10-06T11:47:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validErrorColor -->
-        <test-method status="PASS" signature="validErrorBgColor()[pri:0, instance:WebTestFrame.validateLogin@10e31a9a]" name="validErrorBgColor" duration-ms="38" started-at="2018-09-25T17:49:13Z" finished-at="2018-09-25T17:49:14Z">
+        </test-method> <!-- validPracticeSwitchWindow -->
+        <test-method status="PASS" signature="validPracticeSwitchTab()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="validPracticeSwitchTab" duration-ms="473" started-at="2018-10-06T11:47:03Z" finished-at="2018-10-06T11:47:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validErrorBgColor -->
-        <test-method status="PASS" signature="validForgetPwd()[pri:0, instance:WebTestFrame.validateLogin@10e31a9a]" name="validForgetPwd" duration-ms="3935" started-at="2018-09-25T17:49:14Z" finished-at="2018-09-25T17:49:17Z">
+        </test-method> <!-- validPracticeSwitchTab -->
+        <test-method status="PASS" signature="validPracticeSwitchAlert()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="validPracticeSwitchAlert" duration-ms="435" started-at="2018-10-06T11:47:04Z" finished-at="2018-10-06T11:47:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validForgetPwd -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:WebTestFrame.validateLogin@10e31a9a]" name="teardown" is-config="true" duration-ms="0" started-at="2018-09-25T17:49:17Z" finished-at="2018-09-25T17:49:17Z">
+        </test-method> <!-- validPracticeSwitchAlert -->
+        <test-method status="PASS" signature="validPracticeElementDisplayed()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="validPracticeElementDisplayed" duration-ms="395" started-at="2018-10-06T11:47:04Z" finished-at="2018-10-06T11:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validPracticeElementDisplayed -->
+        <test-method status="PASS" signature="validPracticeWebTable()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="validPracticeWebTable" duration-ms="272" started-at="2018-10-06T11:47:04Z" finished-at="2018-10-06T11:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validPracticeWebTable -->
+        <test-method status="PASS" signature="validPracMouseHovrTop()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="validPracMouseHovrTop" duration-ms="238" started-at="2018-10-06T11:47:05Z" finished-at="2018-10-06T11:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validPracMouseHovrTop -->
+        <test-method status="PASS" signature="validPracMouseHovrReload()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="validPracMouseHovrReload" duration-ms="2038" started-at="2018-10-06T11:47:05Z" finished-at="2018-10-06T11:47:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validPracMouseHovrReload -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:WebTestFrame.ValidatePractice@74fe5c40]" name="teardown" is-config="true" duration-ms="118" started-at="2018-10-06T11:47:07Z" finished-at="2018-10-06T11:47:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- WebTestFrame.validateLogin -->
+      </class> <!-- WebTestFrame.ValidatePractice -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

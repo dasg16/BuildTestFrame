@@ -12,6 +12,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -29,15 +30,18 @@ public class ValidatePractice extends base {
 		driver = initializeDriver();
 		log.info("Driver has been initialized");
 		driver.get(prop.getProperty("url"));
+		LandingPage lanp = new LandingPage(driver);
+		driver.manage().window().maximize();
+		lanp.getCloseButton().click();
 
 	}
 
-	@Test(priority = 0, groups = { "Smoke", "End2End" })
+	@BeforeClass(groups = { "Smoke", "End2End" })
 	public void validPracticeLink() throws IOException, Exception {
 
-		LandingPage lanp = new LandingPage(driver);
 		// counting total number of links in the landing page.
-		lanp.getCloseButton().click();
+		LandingPage lanp = new LandingPage(driver);
+
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 		int count = lanp.getCountLinks();
@@ -97,7 +101,7 @@ public class ValidatePractice extends base {
 
 	}
 
-	@Test(priority = 3, groups = { "End2End" })
+	@Test(groups = { "End2End" })
 	public void validPracticeDropdown() {
 		PracticePage pracP = new PracticePage(driver);
 

@@ -3,29 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="WebTestFrame.validateHomePage">
+      <class name="WebTestFrame.ValidatePractice">
         <methods>
-          <include name="checkLinksToFacebook"/>
-          <include name="checkLinksToYouTube"/>
-          <include name="validFCSelenimLinks"/>
-          <include name="homePNavigationDisplayed"/>
           <include name="initialize"/>
-          <include name="validFCSeleniumDiscPrice"/>
-          <include name="validFeaturedCourses"/>
-          <include name="validNaviBarHome"/>
-          <include name="validNaviBarBlog"/>
-          <include name="validFCSeleStudEnrol"/>
-          <include name="validNaviBarContact"/>
-          <include name="validFCSeleniumPrice"/>
-          <include name="validNaviBarPractice"/>
-          <include name="validNaviBarIntGuides"/>
-          <include name="validNaviBarVideos"/>
-          <include name="validFCSelenimRate"/>
-          <include name="validNaviBarAbout"/>
+          <include name="validPracticeDropdown"/>
           <include name="teardown"/>
-          <include name="validNaviBarCourses"/>
         </methods>
-      </class> <!-- WebTestFrame.validateHomePage -->
+      </class> <!-- WebTestFrame.ValidatePractice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
