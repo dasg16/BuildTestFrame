@@ -23,7 +23,7 @@ public class base {
 
 		prop = new Properties();
 		FileInputStream fis = new FileInputStream(
-				"/Users/gouravdas/git/DevTestFramework/BuildTestFrame/src/main/java/resources/Untitled1");
+				"/Users/gouravdas/git/BuildTestFrame/src/main/java/resources/Untitled1");
 
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
