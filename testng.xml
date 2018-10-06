@@ -17,7 +17,7 @@
 <test name="Test3">
       <classes>
       <class name="WebTestFrame.validateHomePage">
-         <method exlude name="WebTestFrame.validateHomePage">      
+         <!-- <method exlude name="WebTestFrame.validateHomePage"> -->     
       
       </class>
     </classes>

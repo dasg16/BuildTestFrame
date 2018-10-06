@@ -87,7 +87,7 @@ public class validateLogin extends base {
 
 	}
 
-	@Test
+	@Test(enabled = false)
 	public void databaseConnLogin() throws Throwable {
 
 		String host = "localhost";
