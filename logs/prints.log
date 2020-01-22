@@ -369,3 +369,27 @@
 [INFO ] 2018-10-06 12:07:51.308 [main] base - Verified Mouse Hover title tag
 [INFO ] 2018-10-06 12:07:51.664 [main] base - Verified Mouse Hovertop button
 [INFO ] 2018-10-06 12:07:53.961 [main] base - Verified Mouse Hovertop reload
+[INFO ] 2020-01-18 21:23:32.545 [main] base - Driver has been initialized
+[INFO ] 2020-01-18 21:23:49.726 [main] base - Validated Practice page link on HomePage
+[INFO ] 2020-01-18 21:23:49.946 [main] base - Moved into Practice page
+[INFO ] 2020-01-18 21:23:49.984 [main] base - Verified dropdown button title tag
+[INFO ] 2020-01-18 21:23:50.149 [main] base - Validated dropdown option 1
+[INFO ] 2020-01-18 21:23:50.315 [main] base - Validated dropdown option 2
+[INFO ] 2020-01-18 21:23:50.430 [main] base - Validated dropdown option 3
+[INFO ] 2020-01-18 21:23:50.480 [main] base - Verified radio button title tag
+[INFO ] 2020-01-18 21:23:50.797 [main] base - Verified Suggestion Class Textbox title tag
+[INFO ] 2020-01-18 21:23:51.246 [main] base - Verified dropdown button title tag
+[INFO ] 2020-01-18 21:23:51.283 [main] base - Verified checkbox lable
+[INFO ] 2020-01-18 21:23:51.413 [main] base - Validate checkbox option one is selected
+[INFO ] 2020-01-18 21:23:51.555 [main] base - Validate checkbox option two is selected
+[INFO ] 2020-01-18 21:23:51.682 [main] base - Validate checkbox option three is selected
+[INFO ] 2020-01-18 21:23:51.741 [main] base - Verified Switch Window title tag
+[INFO ] 2020-01-18 21:23:56.122 [main] base - Verified Switch Window title tag
+[INFO ] 2020-01-18 21:24:00.481 [main] base - Verified Switch Window title tag
+[INFO ] 2020-01-18 21:24:00.921 [main] base - Verified Element Displayed title tag
+[INFO ] 2020-01-18 21:24:01.098 [main] base - Validated hide button
+[INFO ] 2020-01-18 21:24:01.232 [main] base - Validated show button
+[INFO ] 2020-01-18 21:24:01.300 [main] base - Verified Switch Window title tag
+[INFO ] 2020-01-18 21:24:01.555 [main] base - Verified Mouse Hover title tag
+[INFO ] 2020-01-18 21:24:01.885 [main] base - Verified Mouse Hovertop button
+[INFO ] 2020-01-18 21:24:02.996 [main] base - Verified Mouse Hovertop reload

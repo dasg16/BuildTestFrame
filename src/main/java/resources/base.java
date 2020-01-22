@@ -23,13 +23,13 @@ public class base {
 
 		prop = new Properties();
 		FileInputStream fis = new FileInputStream(
-				"/Users/gouravdas/git/BuildTestFrame/src/main/java/resources/Untitled1");
+				"C:\\Users\\goura\\git\\BuildTestFrame\\src\\main\\java\\resources\\Untitled1");
 
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
 
 		if (browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "/Users/gouravdas/chromedriver");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\goura\\ChromeDriver\\chromedriver.exe");
 			driver = new ChromeDriver();
 
 		}

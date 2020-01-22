@@ -5,9 +5,18 @@
     <classes>
       <class name="WebTestFrame.ValidatePractice">
         <methods>
+          <include name="validPracticeSwitchWindow"/>
+          <include name="validPracticeCheckbox"/>
+          <include name="validPracMouseHovrReload"/>
+          <include name="validPracticeRadio"/>
+          <include name="validPracticeElementDisplayed"/>
           <include name="initialize"/>
+          <include name="validPracticeWebTable"/>
+          <include name="validSuggessionTxtBox"/>
           <include name="validPracticeDropdown"/>
-          <include name="teardown"/>
+          <include name="validPracticeSwitchAlert"/>
+          <include name="validPracMouseHovrTop"/>
+          <include name="validPracticeSwitchTab"/>
         </methods>
       </class> <!-- WebTestFrame.ValidatePractice -->
     </classes>
